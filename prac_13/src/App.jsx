@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Studentcard from './Student';
 import './App.css'
 
 function App() {
@@ -90,7 +90,23 @@ function App() {
           
         </form>
 
-        {stu}
+        {student.map((s)=>
+        (
+          <Studentcard
+          key={s.id}
+            name={s.name}
+            rollno={s.rollno}
+            sub1={s.sub1}
+            sub2={s.sub2}
+             sub3={s.sub3}
+              sub4={s.sub4}
+               sub5={s.sub5}
+               totalmarks={s.totalmarks}
+               per={s.per}
+               result={s.result}
+
+          />
+        ))}
    </div>
   )
 }
