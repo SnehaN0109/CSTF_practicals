@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: pink;
+    padding: 15px;
+}
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+   
+}
+nav a
+{
+    text-decoration: none;
+     margin:5px;
+}
+#home
+{
+    background-color: antiquewhite;
+    padding: 15px;
+}
+#products
+{
+    background-color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    width:31%;
+    margin:1%;
+    padding:15px;
+    background-color: floralwhite;
+}
+img{
+    width:100px;
+    object-fit: contain;
+
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+   
+}

@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form id="myform">
+
+        Username:
+        <input type="text" id="username">
+        <span id="usererror"></span>
+        <br><br>
+
+        Email:
+        <input type="text" id="email">
+        <span id="emailerror"></span>
+        <br><br>
+
+        Password:
+        <input type="password" id="password">
+        <span id="passerror"></span>
+        <br><br>
+
+        Confirm Password:
+        <input type="password" id="confirm">
+        <span id="confirmerror"></span>
+        <br><br>
+
+        Age:
+        <input type="number" id="age">
+        <span id="ageerror"></span>
+        <br><br>
+
+        Mobile:
+        <input type="text" id="mobile">
+        <span id="mobileerror"></span>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <span id="gendererror"></span>
+        <br><br>
+
+        Course:
+        <select id="course">
+            <option value="">Select Course</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Web Development">Web Development</option>
+        </select>
+        <span id="courseerror"></span>
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
